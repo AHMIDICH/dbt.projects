@@ -1,0 +1,11 @@
+tasty_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: TASTY_BYTES_DBT_DB
+      schema: RAW
+      account: ''
+      user: ''
